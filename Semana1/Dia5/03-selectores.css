@@ -1,0 +1,24 @@
+/* SELECTOR DE ETIQUETA */
+/* TODOS LOS h2 DE LA PAGINA */
+
+label {
+  color: palevioletred;
+}
+/* COMPARTIENDO ATRIBUTOS */
+/* ESTILO AFECTA A h1 Y h2 */
+h2,
+h1 {
+  color: crimson;
+}
+
+/* SELECTOR DE HIJOS A CUALQUIER NIVEL */
+/* TODOS LOS li O ol DENTRO DE ul */
+ul li {
+  color: darkslateblue;
+}
+
+/* SELECTOR DE HIJOS DE PRIMER NIVEL */
+/* SLECTOR DE HIJOS DIRECTOS */
+ol>li, input{
+    color: hotpink;
+}

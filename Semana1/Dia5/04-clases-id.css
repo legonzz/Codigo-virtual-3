@@ -1,0 +1,30 @@
+ /* ETIQUETADO CON ATRIBUTO CLASE */
+.formulario-personal{
+    background-color: cornflowerblue;    
+}
+
+/* TODOS LOS ELEMENTOS input QUE ESTEN DENTRO DE UN .formulario-personal */
+.formulario-personal input{
+    border-radius: 10px;
+}
+
+.formulario-externo{
+    background-color: darkseagreen;
+}
+
+section{
+    background-color:lightseagreen ;
+}
+
+.letra-morada{
+    color: chocolate;
+}
+
+.subrayado{
+    text-decoration: underline crimson;
+}
+
+/* ESTILO CON IDENTIFICADOR UNICO id */
+#inputgoogle{
+    background-color: darkslateblue;
+}

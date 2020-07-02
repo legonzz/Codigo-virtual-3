@@ -1,0 +1,56 @@
+/* IMPORTANTO FUENTE EXTERNA */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+
+/* IMPORTANDO FUENTE LOCAL */
+@font-face {
+  font-family: "harry";
+  src: url(./harry_p/HARRYP__.TTF);
+}
+
+body {
+  background-color: lightslategrey;
+  color: white;
+}
+
+.titulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+.tituloh2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.parrafo1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.fuenteharry {
+  font-family: "harry";
+  font-size: 40px;
+}
+
+.parrafo2 {
+  text-align: center;
+  line-height: 20px;
+}
+
+.titulo3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    letter-spacing: 10px;
+    font-size: 90px;
+    text-align: center;
+}
+
+.subrayado{
+    text-decoration: line-through;
+}
+
+a{
+    text-decoration: none;
+}

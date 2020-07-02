@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section1 {
+  background-color: #5c7a6c;
+  height: 200px;
+}
+
+.section2 {
+  height: 300px;
+  background-color: indianred;
+  background-image: url(https://s1.eestatic.com/2016/04/06/cocinillas/Cocinillas_115250122_116248453_1024x576.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-position: center center; */
+}
+
+.section3{
+    height: 2000px;
+    background-image: url(https://img.freepik.com/foto-gratis/textura-papel-arrugado_144627-17447.jpg?size=626&ext=jpg);
+    background-repeat: repeat;
+}
+
+.contenedor{
+    background-color: rgba(200, 111, 30, 0.5);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    height: 300px;
+    padding-top: calc(300px - 10.5rem);
+}
+
+.contenedor h1 {
+    text-align: center;
+    word-spacing: 20px;
+    letter-spacing: 8px;
+}

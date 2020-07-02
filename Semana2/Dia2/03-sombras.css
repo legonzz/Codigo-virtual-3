@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.section1 {
+  width: 200px;
+  height: 200px;
+
+  box-shadow: #bbb 0px 0px 20px 8px;
+
+  margin: 50px auto 0px auto;
+  border-radius: 8px;
+}
+
+h2{
+ /* margin: 0 auto; */
+    /* width: 300px; */
+    text-align: center;
+    padding: 20px;
+    text-shadow:  box-shadow: #bbb 0px 0px px 3px;
+}
+
+span{
+    background-color: hotpink;
+}

@@ -1,0 +1,42 @@
+/* SELECTO :nth-child([posicion]) */
+/* De todos los elementos li solo aplica el estilo a los que estan en la 
+posicion 2 y que sean hermanos */
+li:nth-child(2){
+    color: seagreen;
+}
+
+li:first-child{
+    
+}
+
+/* ELEMENTO LAST CHILD :last-child{} */
+li:last-child{
+    color: tan;
+}
+
+li:first-child{
+    color: tomato;
+}
+
+/* ntgh:child()+OOD Y EVEN */
+/* PARA QUE EL ESTILO AFECTE A ELEMENTOS IMPARES=ODD E PARES=EVEN */
+
+tbody tr:nth-child(odd){
+    background-color: violet;
+}
+
+tbody tr:nth-child(even){
+    background-color: slategray;
+}
+
+thead{
+    background-color:slategray;
+}
+
+input:not(.color-morado){
+    border-radius: 10px;
+}
+
+input[type="text"]{
+    background-color: steelblue;
+}
