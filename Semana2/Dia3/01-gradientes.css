@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body {
+  background: -webkit-linear-gradient(top, #ff4f8d, #ffb36b);
+}
+
+.section1 {
+  height: 200px;
+  width: 200px;
+  border: cyan solid 1px;
+  background: -webkit-linear-gradient(top left, #ff4f8d, #ffb36b);
+}
+
+.section2 {
+    height: 200px;
+    width: 400px;
+    background: -webkit-radial-gradient(center, circle, #FF0D9E, #714DFF);
+}
