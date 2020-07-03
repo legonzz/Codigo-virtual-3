@@ -3,23 +3,34 @@
   box-sizing: border-box;
 }
 
-html, body{
-    height: 100%;
-}
-
-body {
-  background: -webkit-linear-gradient(top, #ff4f8d, #ffb36b);
-}
-
 .section1 {
   height: 200px;
   width: 200px;
-  border: cyan solid 1px;
-  background: -webkit-linear-gradient(top left, #ff4f8d, #ffb36b);
+  border: 1px solid tomato;
+  background: -webkit-linear-gradient(top, #ff4f8d, #ffb36b);
 }
 
-.section2 {
-    height: 200px;
-    width: 400px;
-    background: -webkit-radial-gradient(center, circle, #FF0D9E, #714DFF);
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #d9a7c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top right,
+    #fffcdc,
+    #d9a7c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top right,
+    #fffcdc,
+    #d9a7c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section {
+  height: 200px;
+  width: 200px;
+  background: -webkit-radial-gradient(center, ellipse, #ff4f8d, #ffb36b);
 }

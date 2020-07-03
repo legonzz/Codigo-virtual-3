@@ -1,6 +1,6 @@
-* {
-    margin: 0px;
-    box-sizing: border-box;
+*{
+margin:0;
+box-sizing: border-box;
 }
 
 .section1 {
@@ -10,18 +10,21 @@
 
 .section1 img {
     width: 200px;
-    filter: blur(5px);
-    filter: grayscale(0.7);
+    /* filter: blur(5px); */
+    filter: grayscale(0.9);
+}
+
+/* ESTILOS QUE SE APLICAN CUANDO SE PONE EL MOUSE ENCIMA DEL OBJETO */
+.section1 img:hover{
+    filter: none;
     cursor: pointer;
 }
 
-.section1 img:hover{filter: none;}
-
 .section2 {
-    height: 200px;
     width: 200px;
-    background-color: deeppink;
+    height: 200px;
+    background-color: beige;
     cursor: pointer;
-    filter: blur(5px);
-    opacity: 0.09;
+    /* filter: blur(3px); */
+    opacity: 0.3;
 }

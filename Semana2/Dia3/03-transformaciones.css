@@ -1,36 +1,36 @@
 *{
-    margin: 0px;
-    box-sizing: border-box;
+margin:0;
+box-sizing:border-box
 }
 
 .section1 {
-    width: 500px;
     height: 500px;
-    border: 1px solid sienna;
+    width: 500px;
+    border: solid 1px tomato;
     margin: 50px auto 0px auto;
 }
 
-.cuadrado {
-    height: 100px;
-    width: 100px;
-    background-color: salmon;
-    /* transform: scale(1.1,1.3); */
-    transform: rotate(30deg) ;
-}
-.cuadrado:hover{
-    transform: scale(1.2,1.2);
-    filter: blur(2px);
-    border-radius: 100px;
+.contenedor {
+   width: 100px;
+   height: 100px;
+   background-color: blueviolet;
+   /* transform: scale(1.1,2); */
+   transform: rotate(30deg);
 }
 
-.circulo {
+.contenedor:hover{
+    transform: scale(1.3);
+    filter: blur(2px);
+}
+
+.circulo{
     width: 100px;
     height: 100px;
-    background-color: slateblue;
+    background-color: cornflowerblue;
     border-radius: 50%;
     margin: auto;
-    /* transform: translate(50px, -50px) */;
-    /* CUANDO SE COLOCAN PORCENTAJES SE TOMA COMO REFERENCIA EL VALOR
-    DEL TAMAÑO DEL ELEMENTO: EJM.: 100% DE 100PX, SE MOVERÍA 100PX */
+    /* transform: translate(50px, -50px) */
+    /* AL COLOCAR PORCENTAJES SE TOMA EL VALOR DEL TAMAÑO
+    DEL ELEMENTO PARA TRASLADAR DE POSICIONES */
     transform: translate(-100%, -100%);
 }

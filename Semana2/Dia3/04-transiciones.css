@@ -1,54 +1,62 @@
 *{
-    margin: 0px;
-    box-sizing: border-box;
+margin:0;
+box-sizing:border-box
 }
 
 .section1 {
-    width: 500px;
     height: 500px;
-    border-radius: 50px;
+    width: 500px;
+    border-radius: 20px;
     box-shadow: #bbb 0px 0px 20px;
     margin: 50px auto 0px auto;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in;
     overflow: hidden;
 }
 
 .section1:hover{
-    border-radius: 5px;
+    border-radius: 0px;
 }
 
 .cuadrado {
-    width: 100px;
     height: 100px;
-    background-color: springgreen;
-    transition: all 2s ease-in;
+    /* width: 50px; */
+    width: 100px;
+    background-color: aquamarine;
+    transition: all 2s ease-out;
 }
 
+/* CUANDO SE ESTE HACIENDO HOVER EN EL .section1 ,
+EL ELEMENTO INTERNO QUE LLEVA LA CLASE .cuadrado
+SUFRIRÁ LOS CAMBIOS */
 .section1:hover .cuadrado{
+    /* width: 100%; */
     border-radius: 50%;
-    margin: 0px 0px 0px 200px;
+    margin: 0 0 0 200px;
 }
 
 .section2 {
-    width: 500px;
     height: 500px;
-    border-radius: 50px;
+    width: 500px;
+    border-radius: 20px;
     box-shadow: #bbb 0px 0px 20px;
     margin: 50px auto 0px auto;
     overflow: hidden;
-    transition: all 1.5s ease-in-out;
+    transition: all 1.2s ease-out;
 }
 
 .section2:hover {
-    box-shadow: #ff0000 0px 0px 20px;
+    box-shadow: deeppink 0px 0px 20px;
 }
 
 .persiana {
-    background-color: tomato;
-    transition: all 2.5s linear;
+    background-color: deeppink;
     height: 0px;
+    transition: all 3s ease-out;
+    box-shadow: deeppink 0px 3px 0px;
 }
 
-.section2:hover .persiana {
-    height: 500px; 
+/* CUANDO SE HAGA HOVER EN SECTION2 PERSIANA CMABIA CON EL ESTILO */
+.section2:hover .persiana{
+    height: 500px;
+    box-shadow: deeppink 0px 3px 20px;
 }
