@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+    --naranja: rgb(89, 91, 207);
+    --rosado: rgb(71, 190, 206);
+}
+
+body {
+    background-color: rgb(62, 76, 80);
+}
+
+header {
+  height: 60px;
+  background: -webkit-linear-gradient(
+    left,
+    var(--rosado),
+    var(--naranja)
+  );
+}
+
+.principal {
+    margin: 50px auto 0px auto;
+    width: 50%;
+    height: 1500px;
+    box-shadow: rgb(89, 91, 207) 0px 0px 20px;
+    border-radius: 20px;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+
+.section1 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--naranja);
+    /* "position: static" NO SE PUEDE MOVER NI MODIFICAR SU POSICION */
+    /* "position: relative" EL ELEMENTO ESTÁ LISTO PARA MOVERSE */
+    position: relative;
+    /* MOVER X PIXELES DE SU POSICIÓN INICIAL A LA IZQUIERDA */
+    left: 50px;
+    /* MOVER X PIXELES DE SU POSICIÓN INICIAL ABAJO*/
+    top: 50px;
+    z-index: 200;
+}
+
+.section2 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--rosado);
+    position: relative;
+    z-index: 100;
+}
+
+.section3 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--naranja);
+    position: relative;
+    left: 100%;
+    transform: translate(-100px, 0);
+}
+
+.texto {
+    color: whitesmoke;
+}
+
+/* En Android se llama fab al floating action boton */
+.fab {
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    background: -webkit-linear-gradient(bottom, var(--naranja), var(--rosado));
+    /* CUANDO LA POSICION ES ABSOLUTA ES RECOMENDABLE QUE EL PADRE 
+    DEL ELEMENTO TENGA POSICIÓN RELATIVA, PARA QUE SE MUEVA RESPECTO DE ESTE */
+    /* CUANDO LA POSICIÓN ES ABSOLUTA, LOS ELEMENTOS HERMANOS NO RESPETAN LA
+    POSICIÓN ORIGINAL DEL ELEMENTO QUE SE ESTÁ MOVIENDO */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.margen {
+    margin-right: 60px;
+    margin-bottom: 60px;
+    box-shadow: var(--rosado) 0px 0px 20px;
+}
+
+.izquierda {
+    left: 60px;
+    bottom: 60px;
+    box-shadow:  var(--rosado) 0px 0px 20px;
+    position: fixed;
+}

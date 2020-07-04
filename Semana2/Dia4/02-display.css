@@ -1,0 +1,29 @@
+*{
+margin:0;
+box-sizing:border-box
+}
+
+body {
+    background-color: slategray;
+}
+
+.section1 {
+    height: 500px;
+    width: 500px;
+    border: 1px solid whitesmoke;
+    margin: 50px auto 0px auto;
+}
+
+.article1 {
+    display: inline-block;
+    width: 20%;
+    height: 250px;
+    background: cornflowerblue;
+}
+
+.article2 {
+    width: 80%;
+    display: inline-block;
+    height: 250px;
+    background: tomato;
+}
