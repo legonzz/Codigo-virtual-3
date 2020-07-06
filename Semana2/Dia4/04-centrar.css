@@ -15,9 +15,8 @@ box-sizing:border-box
     width: 100px;
     background-color: crimson;
     position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
     border-radius: 50%;
     border: 2px solid white;
 }

@@ -1,0 +1,77 @@
+link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet"
+
+*{
+margin:0;
+box-sizing:border-box;
+padding: 0;
+}
+
+body {
+  background-color: #eee;
+}
+
+.contenedor {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  margin: 50px auto 0px auto;
+  box-shadow: #555 0px 0px 10px;
+}
+
+.contenedor__imagen {
+  height: 50%;
+  position: relative;
+}
+
+.contenedor__imagen img{
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor__logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,30%);
+  background-image: url("https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png");
+  background-size: cover;
+  border: 4px white solid;
+}
+
+.contenedor__info {
+  height: 50%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contenedor__titulo{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+
+}
+
+.contenedor__boton{
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #659f15;
+  border-radius: 2px;
+  border-bottom: 4px #5c9112 solid;
+  padding: 10px;
+  text-transform: uppercase;
+  position: relative;
+  left: 5px;
+  transition: all 0.2s steps(10);
+  cursor: pointer;
+}
+
+.contenedor__boton:hover {
+  border-bottom: 2px #5c9112 solid;
+  transform: translate(0, 2px);
+}
+

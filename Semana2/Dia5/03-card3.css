@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&family=Varela+Round&display=swap');
+
+*{
+margin:0;
+box-sizing:border-box;
+padding: 0;
+}
+
+:root {
+    --color-primario: #e55b46;
+    --color-secundario: #eb9963;
+}
+
+body {
+    background-color: #eee;
+}
+
+header {
+    height: 60px;
+    background: -webkit-linear-gradient(left ,var(--color-primario), var(--color-secundario));
+}
+
+.color-primario {
+    color: var(--color-primario);
+}
+
+h1 {
+    color: rgb(34, 34, 34);
+    text-align: center;
+    margin: 40px auto 0px auto;
+}
+
+.cards{
+    padding: 20px;
+    
+}
+
+.card, .card * {
+    transition: all 0.2s ease-in;
+}
+
+.card {
+    height: 450px;
+    width: 330px;
+    margin: 0px 20px 20px 20px;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+    display: inline-block;
+    left: 100px;
+}
+
+.card__imagen {
+    height: 65%;
+    overflow: hidden;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    transform: translate(0, -110px);
+}
+
+.card__photos {
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--color-primario);
+    color: white;
+    padding: 8px 11px;
+    border-radius: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card__fechas {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-primario);
+    color: white;
+    top: 0;
+    right: 10px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.card__fechas{
+    transform: translate(0px, 10px);
+}
+
+.card__fechas span {
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mes {
+    position: relative;
+    font-size: 0.5rem;
+    top: -8px;
+}
+
+.dia {
+    font-size: 0.9rem;
+}
+
+.card__info {
+    padding: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.card__subtitulo {
+    color: var(--color-primario);
+    margin-top: 5px;
+}
+
+.card__descripcion {
+    margin-top: 5px;
+    font-size: 0.8rem;
+    color: #333;
+    line-height: 1.1rem;
+    /* display: none; */
+    /* opacity: 0; */
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card__feed {
+    color: rgb(211, 211, 211);
+    position: absolute;
+    bottom: 20px;
+}
+
+.card:hover .card__imagen{
+    height: 50%;
+}
+
+.card:hover .card__imagen img{
+    filter: brightness(0.7);
+}
+
+.card:hover .card__descripcion{
+    /* display: block; */
+    /* opacity: 1; */
+    visibility: visible;
+    opacity: 1;
+}
+
+.card:hover {
+    box-shadow: #ddd 0px 0px 20px;
+    transform: scale(1.04);
+}
+
+
+
+
