@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+margin:0;
+box-sizing:border-box;
+padding: 0;
+}
+
+.card, .card *{
+    transition: all 0.2s ease-in;
+}
+
+header{
+    height: 300px;
+    width: 850px;
+    background-color: #268afc;
+    position: absolute;
+    right: 215px;
+    top: 20px;
+}
+
+body{
+    background-color: #444;
+    font-family: 'Lato', sans-serif;
+}
+
+.card {
+    height: 500px;
+    width: 750px;
+    background-color: white;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.card .card__encabezado{
+    height: 45%;
+    width: 29%;
+    border-bottom: solid 2px rgba(93,168,252,0.4);
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    text-align: center;
+}
+
+.card .card__cuerpo{
+    height: 15%;
+    width: 29.0%;
+    border-bottom: solid 2px rgba(93,168,252,0.4);
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.A{
+    position: absolute;
+    right: 20px;
+}
+
+.C{
+    position: absolute;
+    left: 20px;
+}
+
+.D{
+    position: absolute;
+    right: 20px;  
+}
+
+.F{
+    position: absolute;
+    left: 20px;
+}
+
+.G{
+    position: absolute;
+    right: 20px;
+}
+
+.I{
+    position: absolute;
+    left: 20px;
+}
+
+.card .aviona{
+    height: 10%;
+    width: 10%;
+    background-color: rgba(93,168,252,0.2);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 55%;
+    right: 44%;
+    transform: scale(6);
+    z-index: 99;
+}
+
+.card .avionb{
+    height: 10%;
+    width: 10%;
+    background-color: rgba(93,168,252,0.2);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 55%;
+    right: 44%;
+    transform: scale(4);
+    z-index: 99;
+}
+
+.card .papela{
+    height: 10%;
+    width: 10%;
+    background-color: rgba(93,168,252,0.2);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 55%;
+    right: 44%;
+    transform: scale(6);
+    z-index: 99;
+}
+
+.card .papelb{
+    height: 10%;
+    width: 10%;
+    background-color: rgba(93,168,252,0.2);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 55%;
+    right: 44%;
+    transform: scale(4);
+    z-index: 99;
+}
+
+.card .cohetea{
+    height: 10%;
+    width: 10%;
+    background-color: rgba(93,168,252,0.2);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 55%;
+    right: 44%;
+    transform: scale(6);
+    z-index: 99;
+}
+
+.card .coheteb{
+    height: 10%;
+    width: 10%;
+    background-color: rgba(93,168,252,0.2);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 55%;
+    right: 44%;
+    transform: scale(4);
+    z-index: 99;
+}
+
+.card .fas{
+    text-align: center;
+    margin-top: 33%;
+    z-index: 100;
+    position: absolute;
+    transform: scale(3);
+}
+
+.fa-paper-plane{
+    padding-right: 7px;
+    padding-top: 4px;
+}
+
+.fa-rocket{
+    padding-right: 3.4px;
+    padding-top: 5px;
+}
+
+.fa-plane{
+    padding-top: 3px;
+    padding-right: 2px;
+}
+
+span {
+    position: absolute;
+}
+
+.card__encabezado .card__small{
+    position: absolute;
+    top: 85%;
+    right: 25%;
+    color: #888
+}
+
+.card__encabezado .card__personal{
+    position: absolute;
+    top: 85%;
+    right: 30%;
+    color: #888;
+}
+
+.card__encabezado .card__enterprise{
+    position: absolute;
+    top: 85%;
+    right: 30%;
+    color: #888
+}
+
+.card__cuerpo .card__domain{
+    position: absolute;
+    right: 23%;
+    top: 30%;
+    color: #268afc;
+}
+
+.card__cuerpo .card__never{
+    position: absolute;
+    right: 28%;
+    top: 30%;
+    color: #268afc;
+}
+
+.card__cuerpo .card__dedicated{
+    position: absolute;
+    right: 35%;
+    top: 30%;
+    color: #268afc;
+}
+
+.card__cuerpo .card__inactivity{
+    position: absolute;
+    right: 0%;
+    top: 30%;
+    color: #268afc;
+}
+
+.card__cuerpo .card__multiple{
+    position: absolute;
+    right: 0%;
+    top: 30%;
+    color: #268afc;
+}
+
+.card__cuerpo .card__simple{
+    position: absolute;
+    right: 0%;
+    top: 30%;
+    color: #268afc;
+}
+
+
+.card__precio .card__free{
+    position: absolute;
+    right: 47.5%;
+    top: 80%;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #268afc;
+}
+
+.card__precio .card__150{
+    position: absolute;
+    right: 15%;
+    top: 80%;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #268afc;
+}
+
+.card__precio .card__400{
+    position: absolute;
+    right: 80%;
+    top: 80%;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #268afc;
+}
+
+.card__precio .card__botona{
+    position: absolute;
+    right: 10.0%;
+    top: 85%;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #268afc;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(93,168,252,0.1);
+    cursor: pointer;
+}
+
+.card__precio .card__botonb{
+    position: absolute;
+    right: 76.9%;
+    top: 85%;
+    display: inline-block;
+    outline: none;
+    border: solid 1px #268afc;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(93,168,252,0.1);
+    cursor: pointer;
+}
+
+.card__precio .card__botonc{
+    position: absolute;
+    right: 42%;
+    top: 85%;
+    display: inline-block;
+    outline: none;
+    border: solid 1px #268afc;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(93,168,252,0.1);
+    cursor: pointer;
+}
+
+.card__botona:hover{
+    transform: scale(1.2);
+    background-color: #1375e6;
+    color: white;
+    border: none;
+}
+.card__botonb:hover{
+    transform: scale(1.2);
+    background-color: #1375e6;
+    color: white;
+    border: none;
+}
+
+.card__botonc:hover{
+    transform: scale(1.2);
+    background-color: #1375e6;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
