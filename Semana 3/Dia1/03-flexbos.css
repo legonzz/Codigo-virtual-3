@@ -4,23 +4,29 @@ box-sizing:border-box;
 padding: 0;
 }
 
-body {
+body{
     background-color: #444;
     color: white;
 }
 
-main {
+main{
     width: 350px;
-    border: 1px solid white;
+    border: solid 1px white;
     height: 600px;
     display: flex;
+    /* EL VALOR POR DEFECTO DE UN ELEMENTO FLEX ES 
+    FLEX-NOWRAP */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    /* LA PROPIEDAD ALIGN-CONTENT SIRVE PARA ALINEAR LOS ELEMENTOS
+    CUANDO LA PROPIEDAD FLEX-WRAP ESTA EN "WRAP" Y LOS ELEMENTOS HAN
+    COLAPSADO FORMANDO ASÍ UNA FILA MÁS EN EL CASO DE FLEX-ROW O MÁS
+    DE UNA COLUMNA EN EL CASO DE FLEX-COLUMN */
     align-content: space-around;
 }
 
-main div {
+main div{
     width: 100px;
     height: 50px;
     margin: 20px;
@@ -33,5 +39,3 @@ main div:nth-child(even){
 main div:nth-child(odd){
     background-color: teal;
 }
-
-
