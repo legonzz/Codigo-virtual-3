@@ -4,35 +4,28 @@ box-sizing:border-box;
 padding: 0;
 }
 
-body {
+body{
     background-color: crimson;
 }
 
-/* SIEMPRE SE COLOCA @MEDIA */
-/* ¿CÓMO SE LEE?  */
-/* Para todas las pantallas de dispositivos
-que además tengan un máximo de ancho de 1024px */
 
-@media screen and (max-width: 1024px) {
+/* ¿COMO SE LEE? */
+/* PARA TODAS LAS PANTALLAS DE DISPOSITIVOS
+QUE TENGAN COMO MÁXIMO UN ANCHO DE 1024PX */
+@media screen and (max-width: 1024px){
     body{
-        background-color: darkgray;
+        background-color: #777;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     body{
         background-color: darkblue;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
     body{
-        background-color: darkolivegreen;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    body{
-        background-color: deeppink;
+        background-color: cornflowerblue;
     }
 }
