@@ -1,0 +1,28 @@
+*{
+margin:0;
+box-sizing:border-box;
+padding: 0;
+}
+
+.header{
+    height: 60px;
+
+    /* colocando estilos desde Javascript */
+    background: -webkit-linear-gradient(top, #222222, #666666);
+}
+
+.seccion1{
+    height: 2400px;
+    width: 400px;
+    color: #dddddd;
+    background-color: #555555;
+    margin: 0 auto;
+}
+
+.astronauta {
+    height: 0;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+}

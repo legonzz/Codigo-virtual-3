@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+      }
+      header {
+        height: 60px;
+        background: -webkit-linear-gradient(top, #444444, #555555);
+      }
+      body {
+        background-color: #444444;
+      }
+      .seccion1 {
+        height: 400px;
+        width: 400px;
+        background: #555;
+        margin: 0 auto;
+      }
+      .botones {
+        margin: 20px 0;
+        text-align: center;
+      }
+
+      .sombra-light {
+        box-shadow: #aaa 0px 0px 20px;
+      }
+      .sombra-darks {
+        box-shadow: #666 0px 0px 10px;
+      }
+
+      .neomorfismo {
+        text-align: center;
+      }
+      .neomorfismoBtn {
+        height: 300px;
+        width: 300px;
+        margin: 60px auto;
+        border-radius: 50px;
+        outline: none;
+        border: none;
+        background: -webkit-linear-gradient(45deg, #494a4b, #3d3e3f);
+        
+      }
+
+      .btnOn {
+        background: #444546;
+        box-shadow: inset 29px -29px 57px #323233,  -29px 29px 57px #565859;
+      }
+
+      .btnOf {
+        background: #6b6d6e;
+        box-shadow: inset 29px -29px 57px #414141, inset -29px 29px 57px #7e7f80,
+        0px 0px 30px rgb(99, 99, 99);
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <div class="botones">
+      <button id="btnLight">Sombra Light</button>
+      <button id="btnDarks">Sombra Dark's</button>
+      <button id="btnToggle">Sombra Toggle</button>
+    </div>
+    <section class="seccion1"></section>
+
+    <div class="neomorfismo">
+      <button class="neomorfismoBtn"></button> 
+    </div>
+
+    <script src="./02-element.js"></script>
+  </body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+      }
+      body {
+        height: 200vh;
+      }
+      .container1 {
+        width: 90%;
+      }
+      .imagen-principal {
+        height: 10vh;
+      }
+      .lateral {
+        height: 1000px;
+      }
+      .ads {
+        height: 1000px;
+      }
+      header {
+        background: url(https://dummyimage.com/1280x400);
+        background-size: cover;
+        height: 60vh;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+      }
+      .btn {
+        margin-bottom: 20px;
+      }
+      .row {
+        padding: 0;
+        margin: 0;
+      }
+      .ads {
+        text-align: center;
+      }
+      .img-principal {
+        margin-top: 10px;
+      }
+      .noticia,
+      .titulo {
+        text-align: justify !important;
+      }
+      @media screen and (max-width: 1200px) {
+        .ads-right {
+          height: 200px;
+          width: 100%;
+        }
+      }
+      @media screen and (max-width: 991px) {
+        .ads-left {
+          height: 200px;
+          width: 100%;
+        }
+        .lateral{
+            height: 1200px;
+            text-align: center;
+        }
+        .img-principal{
+            padding-left: 50%;
+        }
+      }
+      @media screen and (max-width: 781px) {
+        .lateral {
+          height: 1300px;
+          width: 100%;
+        }
+        .img-principal{
+            padding-left: 20%;
+            scale: 0.4em;
+        }
+      }
+      @media screen and (max-width: 681px) {
+        .lateral {
+          height: 1300px;
+          width: 100%;
+        }
+        .img-principal{
+            padding-left: 8%;
+            scale: 0.4em;
+        }
+      }
+      @media screen and (max-width: 660px) {
+        .lateral {
+          height: 1300px;
+          width: 100%;
+        }
+        .img-principal{
+            padding-left: 0%;
+            transform: scale(0.6);
+        }
+      }
+      
+      @media screen and (max-width: 600px) {
+        .ads {
+          height: 200px;
+          width: 100%;
+        }
+        .img-principal{
+            padding-left: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="container container1">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Logo</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <!-- Dropdown Trigger -->
+            <li>
+              <a class="dropdown-trigger" href="#!" data-target="dropdown1"
+                >Dropdown<i class="material-icons right">arrow_drop_down</i></a
+              >
+            </li>
+          </ul>
+        </div>
+        <ul id="dropdown1" class="dropdown-content">
+          <li><a href="#!">one</a></li>
+          <li><a href="#!">two</a></li>
+          <li class="divider"></li>
+          <li><a href="#!">three</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="row">
+      <div class="col s12">
+        <button
+          class="btn btn-large waves-effect waves-light btn1"
+          type="submit"
+          name="action"
+        >
+          Sucribirse
+          <i class="material-icons right">send</i>
+        </button>
+        <button
+          class="btn btn-large waves-effect waves-light btn2"
+          type="submit"
+          name="action"
+        >
+          Contacto
+          <i class="material-icons right ">phone_enabled</i>
+        </button>
+      </div>
+    </header>
+    <main class="row s4 push-s7 teal lighten-4 lateral">
+      <div class="col l3 m12 s12 red lighten-4 ads ads-left">Ads</div>
+      <div class="col s5 center-align">
+        <img src="https://dummyimage.com/617 " class="img-principal " alt="" />
+        <h3 class="titulo">La noticia del día</h3>
+        <p class="noticia m12 s12">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor,
+          officiis magnam libero repudiandae modi dicta quaerat placeat ex in
+          quo sed inventore maiores ad nemo totam alias autem temporibus veniam.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor,
+          officiis magnam libero repudiandae modi dicta quaerat placeat ex in
+          quo sed inventore maiores ad nemo totam alias autem temporibus veniam.
+        </p>
+      </div>
+      <div class="col xl3 push-xl1 l12 m12 s12 red lighten-4 ads ads-right">
+        Ads
+      </div>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

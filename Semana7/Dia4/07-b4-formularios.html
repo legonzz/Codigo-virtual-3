@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+      integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
+      crossorigin="anonymous"
+    />
+    <style>
+      .formulario1 {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px #aaaaaa;
+      }
+      body {
+        background-color: #eee;
+        padding-bottom: 30px;
+        padding-top: 30px;
+      }
+      
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="row">
+        <div class="col">
+          <form class="formulario1">
+            <div class="form-group">
+              <label for="">Nombre:</label>
+              <input
+                type="text"
+                class="form-control"
+                name=""
+                id=""
+                placeholder="Ej: Mandingo"
+              />
+              <small class="text-muted">Mínimo 3 cracteres</small>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail">Alias:</label>
+              <input
+                type="email"
+                name=""
+                id="inputEmail"
+                class="form-control is-invalid"
+                placeholder="Ej: El Perunator"
+              />
+              <small class="text-danger">Escribe bien desgraciado</small>
+            </div>
+            <div class="form-group">
+              <label for="selectPrision">Seleccione su prision:</label>
+              <select name="" id="selectPrision" class="form-control">
+                <option value="0">Lurigancho</option>
+                <option value="1">Sarita Colonia</option>
+                <option value="2">Piedras Gordas</option>
+                <option value="3">Ancón</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <button class="btn-primary">Eliminar Reo</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <hr />
+
+      <section class="row">
+        <div class="col">
+          <div class="card shadow-lg">
+            <div class="card-header">
+              <h3>Formulario de Registro</h3>
+            </div>
+            <div class="card-body">
+              <form class="row">
+                <div class="form-group col-md-6">
+                  <label for="">Nombre:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id=""
+                    placeholder="Ej: Mandingo"
+                  />
+                  <small class="text-muted">Mínimo 3 cracteres</small>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="">Apellidos:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id=""
+                    placeholder="Ej: Mandingo"
+                  />
+                  <small class="text-muted">Mínimo 3 cracteres</small>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="">Fecha de muerte:</label>
+                  <input type="date" class="form-control" name="" id="" />
+                  <small class="text-muted">Mínimo 3 cracteres</small>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="">Número de nicho:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id=""
+                    placeholder="Ej: #3244"
+                  />
+                  <small class="text-muted">Mínimo 3 cracteres</small>
+                </div>
+                <div class="form-group col-md-6">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <input type="checkbox" id="checkPoo" />
+                      </div>
+                    </div>
+                    <label for="checkPoo" class="form-control"
+                      >¿Falleció en el comedor de la prisión?</label
+                    >
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+      integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
